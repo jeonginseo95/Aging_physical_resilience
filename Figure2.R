@@ -1,4 +1,4 @@
-# Figure 2b
+# Figure 3b
 # A Stacked bar chart for un-annotated features using a SIRIUS result
 
 library(dplyr)
