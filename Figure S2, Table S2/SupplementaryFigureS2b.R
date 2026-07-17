@@ -1,7 +1,8 @@
+#Figure S2b
 library(tidyverse)
 library(ggplot2)
 
-setwd("C:/Users/sirju/OneDrive/Desktop/AgingPaper2/For_github/SupplementaryFigureS2")
+setwd("...")
 
 df_all   <- read.csv("0-ranked_metabolites-physres.csv")
 df_noAHT <- read.csv("0-ranked_metabolites-physres-no-antihypertensives.csv")
@@ -86,7 +87,6 @@ cat(sprintf("  Overlapping    (noAHT)  : %.4f\n", mean(df_noAHT_ov$Stability)))
 cat(sprintf("  Non-overlapping (noAHT) : %.4f\n", mean(df_noAHT_only$Stability)))
 
 
-# ── 5. Scatter Plot ───────────────────────────────────────────────────────────
 # Each point = one metabolite; axes = weight from each analysis
 # Dashed line = line of identity (y = x); tight clustering indicates concordance
 
