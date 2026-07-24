@@ -1,5 +1,5 @@
 #Figure 5
-setwd("C:/Users/sirju/OneDrive/Desktop/AgingPaper2/For_github/Figure 5")
+setwd("...")
 
 library(pheatmap)
 library(tidyverse)
