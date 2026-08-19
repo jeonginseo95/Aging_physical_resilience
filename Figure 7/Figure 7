@@ -1,4 +1,4 @@
-#Figure 6
+#Figure 7
 ### Packages
 library(data.table)
 library(dplyr)
