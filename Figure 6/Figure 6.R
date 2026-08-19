@@ -1,4 +1,4 @@
-#Figure 5
+### Figure 6
 setwd("...")
 
 library(pheatmap)
